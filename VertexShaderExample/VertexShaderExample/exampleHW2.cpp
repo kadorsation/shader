@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+using namespace std;
 #define PI 3.14159265358
 
 using namespace std;
@@ -34,11 +35,6 @@ public:
 		position[0] = x;
 		position[1] = y;
 		position[2] = z;
-	};
-	GLfloat texcoord[2];
-	void setPositionM(float x, float y) {
-		texcoord[0] = x;
-		texcoord[1] = y;
 	};
 };
 
